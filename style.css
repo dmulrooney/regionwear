@@ -21,13 +21,6 @@ body {
 .product a, h4 {
   text-align: center;
 }
-.zoom {
-  padding: 50px;
-  background-color: green;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
 
 .charlist a {
   color: black;
@@ -52,6 +45,7 @@ li a {
   color: black;
   text-align: center;
   padding: 15px;
+  margin-right: 5px;
   margin-bottom: 3px;
   text-decoration: none;
   display: block;
@@ -70,6 +64,7 @@ li a:hover:not(#active_tab):not(#cart) {
 .logo {
     height: 50px;
     margin-right: 4px;
+    cursor: pointer;
 }
 .content {
     margin: 0 auto;
