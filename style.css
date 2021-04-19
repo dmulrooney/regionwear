@@ -121,6 +121,20 @@ li a:hover:not(#active_tab):not(#cart) {
   margin-top: 29px;
   padding-bottom: 50px;
 }
+.cartdiv {
+  font-size: 14pt;
+  border: 1px solid black;
+  height: 100%;
+  width: 94%;
+  margin: auto;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 12px;
+  padding-left: 25px;
+  margin-top: 29px;
+  padding-bottom: 55px;
+}
+
 select {
   height: 30px;
   width: 93px;
@@ -145,6 +159,40 @@ select {
 .addcart:hover {
   background: darkgreen;
 }
+.removecart, .checkout {
+  height: 65px;
+  width: 140px;
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  background: rgb(197, 9, 9);
+  outline: none;
+  font-size: 16pt;
+}
+
+.totals {
+  display: inline;
+}
+.checkout {
+  background: green;
+  margin-top: -100px;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  width: 163px;
+}
+.cartcontrols {
+  position: relative;
+  margin-right: 25px;
+  float: right;
+  margin-top: 18px;
+}
+.removecart:hover {
+  background: darkred;
+}
+.checkout:hover {
+  background: darkgreen;
+}
 .description {
 
 }
@@ -152,7 +200,14 @@ select {
   margin-top: 25px;
   margin-left: 225px;
 }
+
 .pimg {
+  float: left;
+  height: 205px;
+}
+
+
+.cimg {
   float: left;
   height: 205px;
 }
