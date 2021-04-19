@@ -1,5 +1,6 @@
 #main-content {
   margin-left: 25px;
+  margin-bottom: 60px;
 }
 body {
     margin: 0;
@@ -9,6 +10,23 @@ body {
 }
 .charities {
   list-style-type: circle;
+}
+.charities a {
+  text-decoration: underline;
+}
+.product p {
+  padding-left: 10px;
+  padding-right: 7px;
+}
+.product a, h4 {
+  text-align: center;
+}
+.zoom {
+  padding: 50px;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 .charlist a {
@@ -65,6 +83,10 @@ li a:hover:not(#active_tab):not(#cart) {
     font-size: 11pt;
     border: 2px solid black; border-radius: 8px;  width: 180px;
     margin-right: 32px;
+    transition: transform .2s;
+}
+.product:hover {
+  transform: scale(1.05);
 }
 .prodimg {
     border-radius: 7px;
@@ -78,12 +100,12 @@ li a:hover:not(#active_tab):not(#cart) {
   justify-content: center;
 }
 .footer {
-    height: 40px;
+    height: 33px;
     margin: 0; 
-    margin-top: 60px;
-    left: 0;
+    padding-left: 15px;
     bottom: 0;
-    width: 100%;
+    position:relative;
+    width: 96%;
     color: black;
     text-align: center;
 }
