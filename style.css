@@ -108,3 +108,51 @@ li a:hover:not(#active_tab):not(#cart) {
     font-size: 9pt;
     float: right;
 }
+.productdiv {
+  font-size: 14pt;
+  border: 1px solid black;
+  height: 272px;
+  width: 94%;
+  margin: auto;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 12px;
+  padding-left: 25px;
+  margin-top: 29px;
+  padding-bottom: 50px;
+}
+select {
+  height: 30px;
+  width: 93px;
+  border: 1px solid black;
+  font-size: 13pt;
+}
+.priceusd {
+  margin-bottom: 5px;
+}
+.addcart {
+  position: absolute;
+  height: 65px;
+  width: 140px;
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  background: green;
+  top: 318px;
+  outline: none;
+  font-size: 16pt;
+}
+.addcart:hover {
+  background: darkgreen;
+}
+.description {
+
+}
+.details {
+  margin-top: 25px;
+  margin-left: 225px;
+}
+.pimg {
+  float: left;
+  height: 205px;
+}
