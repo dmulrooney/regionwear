@@ -133,6 +133,7 @@ li a:hover:not(#active_tab):not(#cart) {
   padding-left: 25px;
   margin-top: 29px;
   padding-bottom: 55px;
+  margin-bottom: 20px;
 }
 
 select {

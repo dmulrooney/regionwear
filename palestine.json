@@ -1,0 +1,38 @@
+{
+    "product0":
+    {
+        "productID": 0,
+        "productName": "Palestine A",
+        "productZone": "Palestine",
+        "productPrice": "19.00",
+        "productImage": "palestine/palestineA.jpg",
+        "productDescription": "New and improved Palestine shirt for men."
+    },
+    "product1":
+    {
+        "productID": 1,
+        "productName": "Palestine B",
+        "productZone": "Palestine",
+        "productPrice": "25.00",
+        "productImage": "palestine/palestineB.jpg",
+        "productDescription": "New and improved Palestine pants for men."
+    },
+    "product2":
+    {
+        "productID": 2,
+        "productName": "Palestine C",
+        "productZone": "Palestine",
+        "productPrice": "29.00",
+        "productImage": "palestine/palestineC.jpg",
+        "productDescription": "New and improved Palestine shirt for women."
+    },
+    "product3":
+    {
+        "productID": 3,
+        "productName": "Palestine D",
+        "productZone": "Palestine",
+        "productPrice": "50.00",
+        "productImage": "palestine/palestineD.jpg",
+        "productDescription": "New and improved Palestine pants for women."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "product0":
+    {
+        "productID": 0,
+        "productName": "Syria A",
+        "productZone": "Syria",
+        "productPrice": "19.00",
+        "productImage": "syria/syriaA.jpg",
+        "productDescription": "New and improved Syria shirt for men."
+    },
+    "product1":
+    {
+        "productID": 1,
+        "productName": "Syria B",
+        "productZone": "Syria",
+        "productPrice": "25.00",
+        "productImage": "syria/syriaB.jpg",
+        "productDescription": "New and improved Syria pants for men."
+    },
+    "product2":
+    {
+        "productID": 2,
+        "productName": "Syria C",
+        "productZone": "Syria",
+        "productPrice": "29.00",
+        "productImage": "syria/syriaC.jpg",
+        "productDescription": "New and improved Syria shirt for women."
+    },
+    "product3":
+    {
+        "productID": 3,
+        "productName": "Syria D",
+        "productZone": "Syria",
+        "productPrice": "50.00",
+        "productImage": "syria/syriaD.jpg",
+        "productDescription": "New and improved Syria pants for women."
+    }
+}

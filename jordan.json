@@ -1,0 +1,38 @@
+{
+    "product0":
+    {
+        "productID": 0,
+        "productName": "Jordan A",
+        "productZone": "Jordan",
+        "productPrice": "19.00",
+        "productImage": "jordan/jordanA.jpg",
+        "productDescription": "New and improved Jordan shirt for men."
+    },
+    "product1":
+    {
+        "productID": 1,
+        "productName": "Jordan B",
+        "productZone": "Jordan",
+        "productPrice": "25.00",
+        "productImage": "jordan/jordanB.jpg",
+        "productDescription": "New and improved Jordan pants for men."
+    },
+    "product2":
+    {
+        "productID": 2,
+        "productName": "Jordan C",
+        "productZone": "Jordan",
+        "productPrice": "29.00",
+        "productImage": "jordan/jordanC.jpg",
+        "productDescription": "New and improved Jordan shirt for women."
+    },
+    "product3":
+    {
+        "productID": 3,
+        "productName": "Jordan D",
+        "productZone": "Jordan",
+        "productPrice": "50.00",
+        "productImage": "jordan/jordanD.jpg",
+        "productDescription": "New and improved Jordan pants for women."
+    }
+}

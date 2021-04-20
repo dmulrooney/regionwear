@@ -11,7 +11,7 @@
         <ul>
             <li><img onclick="window.location = './home.html';" class="logo" src="logo.jpg" alt="region wear"/></li>
             <li><a id="active_tab" href="home.html">home</a></li>
-            <li><a href="products.html">products</a></li>
+            <li><a href="products.php">products</a></li>
             <li><a href="info.html">info</a></li>
             <li><a href="contact.html">contact us</a></li>
             <li><span id="cart"><img style="position: absolute; right: 25px; height: 30px; top: 13px;" alt="cart" src="cart.png"/></span></li>
@@ -20,7 +20,16 @@
     <div class="content">
         <div class="map">
             <h2>our regions</h2>
-            <img src="map.png" alt="map" class="mapimg"/>
+            <h6>click on the country you want to support</h6>
+            <img src="map.png" alt="map" class="maping" usemap="#image-map">
+            <map name="image-map">
+                <area target="" alt="Egypt " title="Egypt " href="products.php" coords="460,343,461,437,585,438,540,356,559,378,565,360,559,344" shape="poly">
+                <area target="" alt="Palestine" title="Palestine" href="products.php" coords="559,343,573,324,568,360" shape="poly">
+                <area target="" alt="Jordan" title="Jordan" href="products.php" coords="569,362,576,328,585,331,607,321,612,330,590,339,597,353" shape="poly">
+                <area target="" alt="Syria" title="Syria" href="products.php" coords="576,324,583,310,576,306,575,296,584,291,585,283,601,281,612,285,629,281,647,280,637,286,632,307,587,328,582,326" shape="poly">
+                <area target="" alt="Iraq" title="Iraq" href="products.php" coords="614,332,608,322,633,309,636,286,649,277,666,283,672,279,685,294,677,311,685,326,703,335,701,348,711,355,691,364,660,362,659,350" shape="poly">
+                <area target="" alt="Turkey" title="Turkey" href="products.php" coords="572,321,572,313,580,310,579,316" shape="poly"> 
+            </map>
         </div>
         <div>
             <h2>what we are</h2>
@@ -32,32 +41,32 @@
             <div class="products">
                 <div class="product">
                     <img src="180.png" class="prodimg" alt="placeholder"/>
-                    <a href="products.html"><h4>Old Fashion No. 1</h4></a>
+                    <a href="products.php"><h4>Old Fashion No. 1</h4></a>
                     <p>An old favorite fashion item will go here.</p>
                 </div>
                 <div class="product">
                     <img src="180.png" class="prodimg" alt="placeholder"/>
-                    <a href="products.html"><h4>Old Fashion No. 2</h4></a>
+                    <a href="products.php"><h4>Old Fashion No. 2</h4></a>
                     <p>Our classic old fashion no. 2 is defintley worth looking into.</p>
                 </div>
                 <div class="product">
                     <img src="180.png" class="prodimg" alt="placeholder"/>
-                    <a href="products.html"><h4>Old Fashion No. 3</h4></a>
+                    <a href="products.php"><h4>Old Fashion No. 3</h4></a>
                     <p>Specific to parts of India, old fashion no. 3 will turn heads.</p>
                 </div>
                 <div class="product">
                     <img src="180.png" class="prodimg" alt="placeholder"/>
-                    <a href="products.html"><h4>Old Fashion No. 4</h4></a>
+                    <a href="products.php"><h4>Old Fashion No. 4</h4></a>
                     <p>Old fashion no. 4 is widely popular with the younger crowd.</p>
                 </div>
             </div>
         </div>
-        <p  style="margin-top: 60px;">Click here to view <a href="products.html">all products</a>.</p>
+        <p  style="margin-top: 60px;">Click here to view <a href="products.php">all products</a>.</p>
     </div>
     <br>
     <div class="footer">
         <span style="float:left">&nbsp;&copy; Regionwear 2021 all rights reserved&nbsp; </span>
-        <span style="float:right">&nbsp;Updated March 10, 2021 &nbsp; - The Project 29 Team&nbsp; </span>
+        <span style="float:right">&nbsp;Updated April 19, 2021 &nbsp; - The Project 29 Team&nbsp; </span>
     </div>
 </body>
 </html>
